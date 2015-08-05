@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- APP名称 -->
+    <string name="app_name">模板</string>
+    <!-- APP ID自命名 -->
+    <string name="pid">10001</string>
+    <!-- 缓存文件夹名称 一般写项目名称 -->
+    <string name="cache_dir">pyxx</string>
+    <!-- 提示 -->
+    <string name="loading">正在加载...</string>
+    <string name="loading_n">点击查看下更多</string>
+    <string name="checkupdate_hasnew">有新版本了</string>
+    <string name="checkupdate_getnew">升级版本</string>
+    <string name="exit">退出</string>
+    <string name="exit_message">您是否要退出%s客户端?</string>
+    <string name="network_error">网络连接异常</string>
+    <string name="server_error">服务器异常</string>
+    <string name="no_data">暂无信息</string>
+    <string name="no_data_fav">没有收藏记录</string>
+    <string name="no_data_comments">暂无评论</string>
+    <string name="done">确定</string>
+    <string name="cancel">取消</string>
+    <string name="share_text_tip">您还可以输入%s个字</string>
+    <string name="share_bind_tip">您还未绑定微博</string>
+    <string name="share_success_tip">分享成功</string>
+    <string name="not_null_tip">分享不能为空</string>
+    <string name="too_long_tip">内容超过字数限制</string>
+    <string name="bind_tuijian">推荐此应用到我的微博</string>
+    <string name="comment_list_no">暂无评论</string>
+    <!-- 下拉刷新文字提示 -->
+    <string name="data_type_error">服务异常...</string>
+    <string name="xlistview_header_hint_normal">下拉刷新...</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新...</string>
+    <string name="pull_to_refresh_release_label">松开立即刷新...</string>
+    <string name="pull_to_refresh_refreshing_label">正在加载...</string>
+    <string name="pull_to_refresh_tap_label">下拉刷新...</string>
+    <string name="pull_to_refresh_update">上次更新:</string>
+    <!-- 图片下载 -->
+    <string name="draw_load_toast">图片正在下载...</string>
+    <string name="draw_load_down">正在保存...</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/part_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" >
+
+    <com.pyxx.baseview.PullToRefreshListView
+        android:id="@+id/list_id_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#00000000"
+        android:cacheColorHint="#00000000"
+        android:divider="#878787"
+        android:dividerHeight="1px"
+        android:fadingEdgeLength="0px" >
+    </com.pyxx.baseview.PullToRefreshListView>
+
+    <include layout="@layout/loading_layout" />
+
+</RelativeLayout>

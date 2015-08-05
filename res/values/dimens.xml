@@ -1,0 +1,19 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <dimen name="image_home_size">400px</dimen>
+    <dimen name="image_thumbnail_size">200dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+    <dimen name="image_detail_pager_margin">80dp</dimen>
+
+    <item name="offline" format="boolean" type="bool">false</item>
+    <!-- 首页显示配置 -->
+    <item name="hashome" format="boolean" type="bool">true</item>
+    <!-- 数据加载条数设置 -->
+    <item name="mleng" format="integer" type="integer">20</item>
+    <!-- 内文图说显示 -->
+    <item name="article_hastitle" format="boolean" type="bool">false</item>
+    <!-- 时间提醒 -->
+    <item name="time_tip" format="boolean" type="bool">true</item>
+    <item name="ids_close" type="id"></item>
+
+</resources>

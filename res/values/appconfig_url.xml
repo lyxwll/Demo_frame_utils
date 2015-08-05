@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- 客户端域名 -->
+    <string name="main">http://api.pymob.cn:809/</string>
+    <!-- 文章内容链接 -->
+    <string name="article_url">http://hq.cms.palmtrends.com/api_v2.php?action=article&amp;id=</string>
+    <!-- 首页链接 -->
+    <string name="home">%1$s/api_v2.php?action=top</string>
+    <!-- 文章列表链接 -->
+    <string name="list_url">%1$s/api_v2.php?action=list</string>
+    <!-- 图片列表链接 -->
+    <string name="draw_list">%1$s/api_v2.php?action=list</string>
+    <string name="draw_content_url">%1$s/api_v2.php?action=picture</string>
+    <!-- 文章评论列表接口 -->
+    <string name="review_url">%1$s/api_v2.php?action=xswz</string>
+    <!-- 用户反馈链接 -->
+    <string name="suggest_url">%1$s/api_v2.php?action=suggest</string>
+    <!-- 文章评论接口 -->
+    <string name="pinglun_url">%1$s/api_v2.php?action=wzpl</string>
+</resources>

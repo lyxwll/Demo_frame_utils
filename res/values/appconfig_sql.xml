@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- 二级栏目信息 -->
+    <string-array name="second_names">
+        <item>时政,tianxia,shizheng;经济,tianxia,jingji;生活,tianxia,shenghuo;人物,tianxia,rewu;声音,tianxia,shengyin</item>
+        <item>往事,zhuanlan,wangshi;时评,zhuanlan,shiping;街角,zhuanlan,jiejiao</item>
+    </string-array>
+
+    <!-- 数据库表配制 -->
+    <string-array name="appconfig_sql">
+
+        <!-- 数据列表 -->
+        <item>CREATE TABLE IF NOT EXISTS listinfo (c_id INTEGER primary key autoincrement,url CHAR UNIQUE,infos TEXT,listtype CHAR);</item>
+        <!-- 已读未读提示 -->
+        <item>CREATE TABLE IF NOT EXISTS readitem (c_id INTEGER primary key autoincrement,n_mark CHAR UNIQUE,share_image TEXT,shorturl CHAR,htmltext TEXT,read CHAR);</item>
+        <!-- 推送 -->
+        <item>CREATE TABLE IF NOT EXISTS push(c_id INTEGER primary key autoincrement,info TEXT,nid TEXT,pushdate CHAR UNIQUE);</item>
+        <!-- 微博用户信息 -->
+        <item>CREATE TABLE IF NOT EXISTS weibomg (c_id INTEGER primary key autoincrement,sname CHAR,mark CHAR,userid CHAR,username CHAR);</item>
+        <!-- 二级栏目 -->
+        <item>CREATE TABLE IF NOT EXISTS part_list(c_id INTEGER primary key autoincrement,part_name CHAR,part_sa CHAR UNIQUE,part_choise CHAR,part_index INTEGER,part_type CHAR,part_updatetime CHAR);</item>
+        <!-- app时间统计 -->
+        <item>CREATE TABLE IF NOT EXISTS apptime(c_id INTEGER primary key autoincrement,type CHAR,starttime CHAR,endtime CHAR,mark CHAR,aid CHAR,open_mode CHAR);</item>
+        <!-- 收藏 -->
+        <item>CREATE TABLE IF NOT EXISTS listitemfa (c_id INTEGER primary key autoincrement,icon TEXT,nid CHAR,des TEXT,title VARCHAR,sa CHAR,n_mark CHAR UNIQUE,u_date CHAR,show_type CHAR,other TEXT,other1 TEXT,other2 TEXT,other3 TEXT,share_image CHAR,ishead CHAR,isad CHAR,list_type CHAR,sugfrom INTEGER,author CHAR,fuwu TEXT,shangjia TEXT,img_list_1 TEXT,img_list_2 TEXT,vip_id TEXT,preferential TEXT,phone TEXT,level TEXT,address TEXT,longitude TEXT,latitude TEXT);</item>
+    </string-array>
+    <!-- 数据库表删除 -->
+    <string-array name="appconfig_sql_upgrade">
+        <item>DELETE FROM  listinfo</item>
+        <item>DELETE FROM  weibomg</item>
+        <item>DELETE FROM  readitem</item>
+        <item>DELETE FROM  push</item>
+        <item>DELETE FROM  apptime</item>
+        <item>DELETE FROM  part_list</item>
+        <item>DELETE FROM  listitemfa</item>
+    </string-array>
+    <string-array name="app_sql_delete">
+        <item>DELETE FROM  listinfo</item>
+        <item>DELETE FROM  weibomg</item>
+        <item>DELETE FROM  readitem</item>
+        <item>DELETE FROM  push</item>
+        <!-- <item>DELETE FROM  apptime</item> -->
+        <item>DELETE FROM  part_list</item>
+        <!-- <item>DELETE FROM  listitemfa</item> -->
+    </string-array>
+
+</resources>

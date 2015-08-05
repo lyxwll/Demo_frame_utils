@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="activity_all_finish">com.pyxx.activity.activity_finish</string> <!-- 结束全部activity -->
+
+</resources>

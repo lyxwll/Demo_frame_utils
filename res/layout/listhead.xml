@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/adfiexdview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000" >
+
+    <ImageView
+        android:id="@+id/head_icon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/head_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</merge>
