@@ -106,6 +106,11 @@ public abstract class BaseFragment<T> extends Fragment {
 		this.mParttype = partType;
 		this.mUrltype = urltype;
 	}
+	
+	public void initType(String type, String partType) {
+		this.mOldtype = type;
+		this.mParttype = partType;
+	}
 
 	/**
 	 * 返回head
